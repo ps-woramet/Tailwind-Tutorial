@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="text-center text-red-500 font-bold text-2xl">การจัดการข้อความ</h1>
+    <br>
+    <p class="text-center">color [text-ชื่อสี-ความเข้มสี]</p>
+    <p class="text-blue-500">text-blue-500</p>
+    <br>
+    <p class="text-center">size [text-size]</p>
+    <p class="text-sm">text-sm</p>
+    <p class="text-base">text-base</p>
+    <p class="text-lg">text-lg</p>
+    <p class="text-xl">text-xl</p>
+    <p class="text-2xl">text-2xl</p>
+    <br>
+    <p class="text-center">style</p>
+    <p class="italic">font-italic</p>
+    <p class="uppercase">uppercase</p>
+    <p class="lowercase">lowercase</p>
+    <p class="capitalize">capitalize</p>
+    <br>
+    <p class="text-center">weight [font-รูปแบบความหนา]</p>
+    <p class="font-thin">font-thin</p>
+    <p class="font-extralight">font-extralight</p>
+    <p class="font-light">font-light</p>
+    <p class="font-normal">font-normal</p>
+    <p class="font-medium">font-medium</p>
+    <p class="font-semibold">font-semibold</p>
+    <p class="font-bold">font-bold</p>
+    <p class="font-extrabold">font-extrabold</p>
+    <p class="font-black">font-black</p>
+    <br>
+    <p class="text-center">alignment [text-ตำแหน่ง]</p>
+    <p class="text-center">text-center</p>
+    <p class="text-right">text-right</p>
+    <p class="text-left">text-left</p>
+    <br>
+    <p class="text-center">Opacity [text-ความโปร่งใส]</p>
+    <p class="text-opacity-0">text-opacity-0</p>
+    <p class="text-opacity-50">text-opacity-50</p>
+    <p class="text-opacity-100">text-opacity-100</p>
+    <br>
+    <h1 class="text-center text-red-500 font-bold text-2xl">Width and height</h1>
+    <br>
+    <p class="text-center">width (4 = 1rem)</p>
+    <p class="bg-blue-500 w-1">w-4 width: 0.25rem</p>
+    <p class="bg-blue-500 w-4">w-4 width: 1rem</p>
+    <p class="bg-blue-500 w-auto">w-auto width: auto</p>
+    <p class="bg-blue-500 w-1/2">w-1/2 width: 50%</p>
+    <p class="bg-blue-500 w-1/4">w-1/4 width: 25%</p>
+    <p class="bg-blue-500 w-full">w-full width: 100%</p>
+    <p class="bg-blue-500 w-screen">w-screen width: 100vw</p>
+    <p class="bg-blue-500 w-min">w-min width: min-content</p>
+    <p class="bg-blue-500 w-max">w-max width: max-content</p>
+    <p class="bg-blue-500 w-fit">w-fit width: fit-content</p>
+    <br>
+    <h1 class="text-center text-red-500 font-bold text-2xl">Margin and Padding</h1>
+    <br>
+    <p class="text-center">m{t|r|b|l}-size (4 = 1rem)</p>
+    <br>
+    <p class="bg-blue-500 text-center mx-10">mx-size แนวนอน</p>
+    <br>
+    <p class="bg-blue-500 text-center my-10">my-size แนวตั้ง</p>
+    <br>
+    <p class="bg-blue-500 text-center m-10">m-size ทุกแนว</p>
+    <br>
+    <p class="text-center">p{t|r|b|l}-size (4 = 1rem)</p>
+    <br>
+    <p class="bg-blue-500 text-center px-10">px-size แนวนอน</p>
+    <br>
+    <p class="bg-blue-500 text-center py-10">py-size แนวตั้ง</p>
+    <br>
+    <p class="bg-blue-500 text-center p-10">p-size ทุกแนว</p>
+    <br>
+    <h1 class="text-center text-red-500 font-bold text-2xl">การจัดการเส้นขอบ(Border)</h1>
+    <br>
+    <p class="text-center">ขนาดเส้นขอบ [border-size, border-{t|r|b|l}-size]</p>
+    <p class="text-center">สีเส้นขอบ [border-ชื่อสี-ความเข้ม]</p>
+    <p class="text-center">ความโค้งเส้นขอบ [rounded-sm,md,lg,2xl,3xl rounded-{t|b|r|l}-md]</p>
+    <p class="text-center">รูปแบบเส้นขอบ(ต้องกำหนด borderก่อน)[border-style]</p>
+    <p class="">border-none</p>
+    <p class="">border-solid</p>
+    <p class="">border-dashed</p>
+    <p class="">border-dotted</p>
+    <p class="">border-double</p>
+    <button class="bg-green-500 text-white m-10 p-5 border-4 border-red-500 border-dashed rounded-xl">Click</button>
+    <br>
+    <h1 class="text-center text-red-500 font-bold text-2xl">Box shadow</h1>
+    <br>
+    <button class="bg-blue-500 shadow-xl">shadow-xl</button>
+    <button class="bg-blue-500 shadow-inner">shadow-inner</button>
+    <button class="bg-blue-500 shadow-none">shadow-none</button>
+    <button class="bg-blue-500 shadow hove:shadow-lg">shadow hover:shadow-lg</button>
+    <br>
+    <h1 class="text-center text-red-500 font-bold text-2xl">Pseudo Selector</h1>
+    <br>
+    <p>focus:</p>
+    <p>hover:</p>
+    <form class="m-10">
+        <input type="text" name="" id="" class="bg-gray-200 focus:bg-blue-200">
+        <button class="bg-yellow-500 hover:bg-red-500">บันทึก</button>
+    </form>
+    <br>
+    <h1 class="text-center text-red-500 font-bold text-2xl">Responsive Web Design</h1>
+    <p>container sm 640px @media (min-width: 640px)</p>
+    <p>container md 768px @media (min-width: 768px)</p>
+    <p>container lg 1024px @media (min-width: 1024px)</p>
+    <p>container xl 1280px @media (min-width: 1280px)</p>
+    <p>container 2xl 1536px @media (min-width: 1536px)</p>
+    <br>
+    <div class="container bg-red-500 mx-auto">
+        <h1 class="text-4xl sm:text-yellow-500 md:text-green-500">text small</h1>
+    </div>
+    <br>
+    <h1 class="text-center text-red-500 font-bold text-2xl">Flex box</h1>
+    <br>
+    <p class="text-center">flex ,flex-row,flex-row-reverse,flex-col (ใส่ที่ container)</p>
+    <br>
+    <div class="bg-yellow-500 w-auto flex flex-row">
+        <div class="w-80 h-10 bg-red-500">Box 1 flex-row</div>
+        <div class="w-80 h-10 bg-red-500">Box 2 flex-row</div>
+        <div class="w-80 h-10 bg-red-500">Box 3 flex-row</div>
+    </div>
+    <br>
+    <div class="bg-yellow-500 w-auto flex flex-col">
+        <div class="w-80 h-10 bg-red-500">Box 1 flex-col</div>
+        <div class="w-80 h-10 bg-red-500">Box 2 flex-col</div>
+        <div class="w-80 h-10 bg-red-500">Box 3 flex-col</div>
+    </div>
+    <br>
+    <p class="text-center">flex wrap, nowrap, wrap-noreverse (ใส่ที่ container)</p>
+    <br>
+    <div class="bg-yellow-500 w-auto flex flex-wrap">
+        <div class="w-80 h-10 bg-red-500">Box 1 flex-wrap</div>
+        <div class="w-80 h-10 bg-red-500">Box 2 flex-wrap</div>
+        <div class="w-80 h-10 bg-red-500">Box 3 flex-wrap</div>
+    </div>
+    <br>
+    <p class="text-center">flex-1 item ในแถวเท่ากัน (ใส่ที่ item)</p>
+    <br>
+    <div class="bg-yellow-500 w-auto flex">
+        <div class="w-80 h-10 bg-red-500 flex-1">Box 1 flex-1</div>
+        <div class="w-80 h-10 bg-red-500 flex-1">Box 2 flex-1</div>
+        <div class="w-80 h-10 bg-red-500 flex-1">Box 3 flex-1</div>
+    </div>
+    <br>
+    <p class="text-center">flex-shrink item หดจำนวนเท่าใดเมื่อเทียบกับ item อื่น (ใส่ที่ item)</p>
+    <br>
+    <div class="bg-yellow-500 w-auto flex">
+        <div class="w-80 h-10 bg-red-500">Box 1 flex-shrink</div>
+        <div class="w-80 h-10 bg-blue-500 flex-shrink">Box 2 flex-shrink</div>
+        <div class="w-80 h-10 bg-green-500">Box 3 flex-shrink</div>
+    </div>
+    <br>
+    <p class="text-center">flex-grow item ขยายเท่าใดเมื่อเทียบกับ item อื่น (ใส่ที่ item)</p>
+    <br>
+    <div class="bg-yellow-500 w-auto flex">
+        <div class="w-80 h-10 bg-red-500">Box 1 flex-grow</div>
+        <div class="w-80 h-10 bg-blue-500 flex-grow">Box 2 flex-grow</div>
+        <div class="w-80 h-10 bg-green-500">Box 3 flex-grow</div>
+    </div>
+    <br>
+    <p class="text-center">grid grid-cols-3 grid-rows-3 gap-x-4 gap-y-1(ใส่ที่ container)</p>
+    <br>
+    <div class="bg-yellow-500 w-auto grid grid-cols-3 grid-rows-3 gap-x-4 gap-y-1">
+        <div class="h-10 bg-red-500">Box 1</div>
+        <div class="h-10 bg-red-500">Box 2</div>
+        <div class="h-10 bg-red-500">Box 3</div>
+        <div class="h-10 bg-red-500">Box 4</div>
+        <div class="h-10 bg-red-500">Box 5</div>
+        <div class="h-10 bg-red-500">Box 6</div>
+        <div class="h-10 bg-red-500">Box 7</div>
+        <div class="h-10 bg-red-500">Box 8</div>
+        <div class="h-10 bg-red-500">Box 9</div>
+    </div>
+    <br>
+    <p class="text-center">grid justify-item-start, center, end, stretch (ใส่ container)</p>
+    <br>
+    <div class="bg-yellow-500 w-auto grid justify-items-center">
+        <div class="w-40 h-10 bg-gray-200">Box 1</div>
+        <div class="w-40 h-10 bg-gray-200">Box 2</div>
+        <div class="w-40 h-10 bg-gray-200">Box 3</div>
+    </div>
+    <br>
+    <p class="text-center">grid justify-self-start, center, end (ใส่ item)</p>
+    <br>
+    <div class="bg-yellow-500 w-auto grid">
+        <div class="w-30 h-10 bg-gray-200 justify-self-start">Box 1</div>
+        <div class="w-30 h-10 bg-gray-200 justify-self-center">Box 2</div>
+        <div class="w-30 h-10 bg-gray-200 justify-self-end">Box 3</div>
+    </div>
+    <br>
+    <h1 class="text-center text-red-500 font-bold text-2xl">Layer and apply</h1>
+    <br>
+    <a href="#">Menu 1 layer base</a>
+    <br>
+    <a href="#">Menu 2 layer base</a>
+    <br>
+    <a href="#" class="menu-button">Menu 3 layer components</a>
+    <br>
+    <a href="#" class="menu-button">Menu 4 layer components</a>
+    <br>
+    <a href="#" class="text-gray-500">Menu 5 layer utilities</a>
+    <br>
+    <a href="#" class="text-gray-500">Menu 6 layer utilities</a>
+    <br>
+</body>
+</html>
